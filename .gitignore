@@ -130,4 +130,8 @@ $RECYCLE.BIN/
 # Mac desktop service store files
 .DS_Store
 
+<<<<<<< HEAD
 _NCrunch*
+=======
+_NCrunch*
+>>>>>>> 5e30e8871836dd545e59f8729d11f174cc107758
