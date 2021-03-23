@@ -12,4 +12,7 @@
   
 </p>
 
-## Program is not affliated with Riot Games, this was made by Rumblemike by himself. If you are Riot please scroll all the way down for your message <3
+## Program is not affliated with Riot Games, this was made by Rumblemike by himself.
+
+## Tutorial
+[![Watch the video](https://i.imgur.com/IZdPTwQ.png)](https://youtu.be/xsv6ef55dD8)
