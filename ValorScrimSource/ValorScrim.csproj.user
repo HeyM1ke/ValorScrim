@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Mike\source\repos\ValorParty\ValorParty\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Menus\CreateMatch\CreateMatch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menus\ErrorPage\ErrorPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menus\Home\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menus\JoinMatch\JoinMatch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Menus\Loading\Loading.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menus\CreateMatch\CreateMatch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menus\ErrorPage\ErrorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menus\Home\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menus\JoinMatch\JoinMatch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menus\Loading\Loading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

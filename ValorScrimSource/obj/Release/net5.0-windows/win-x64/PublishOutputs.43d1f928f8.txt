@@ -1,0 +1,11 @@
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\ValorScrim.pdb
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\clrcompression.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\clrjit.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\coreclr.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\mscordaccore.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\D3DCompiler_47_cor3.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\PenImc_cor3.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\PresentationNative_cor3.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\vcruntime140_cor3.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\wpfgfx_cor3.dll
+C:\Users\Mike\source\repos\ValorParty\ValorParty\bin\Release\net5.0-windows\publish\ValorScrim.exe

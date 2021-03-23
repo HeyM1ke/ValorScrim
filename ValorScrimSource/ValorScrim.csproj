@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ValorScrim</AssemblyName>
+    <RootNamespace>ValorParty</RootNamespace>
+    <ApplicationIcon>vslogo.ico</ApplicationIcon>
+    <AssemblyVersion>0.0.0.4</AssemblyVersion>
+    <FileVersion>0.0.0.4</FileVersion>
+    <Authors>RumbleMike</Authors>
+    <Version>0.0.0.4</Version>
+    <PackageIcon>vslogo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\loading.gif" />
+    <None Remove="images\undefined.png" />
+    <None Remove="Menus\CreateMatch\Ascent_preview.png" />
+    <None Remove="Menus\CreateMatch\Bonsai_preview.png" />
+    <None Remove="Menus\CreateMatch\Duality_preview.png" />
+    <None Remove="Menus\CreateMatch\Icebox_preview.png" />
+    <None Remove="Menus\CreateMatch\Triad_preview.png" />
+    <None Remove="Menus\Home\logo.png" />
+    <None Remove="Menus\Home\Playercard_BuckySchema_S.png" />
+    <None Include="..\..\..\..\Desktop\vslogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autoupdater.NET.Official" Version="1.6.4" />
+    <PackageReference Include="Infragistics.Themes.MetroDark.Wpf" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="websocketsharp.core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\loading.gif" />
+    <Resource Include="images\Ascent_preview.png" />
+    <Resource Include="images\Bonsai_preview.png" />
+    <Resource Include="images\Duality_preview.png" />
+    <Resource Include="images\Icebox_preview.png" />
+    <Resource Include="images\Triad_preview.png" />
+    <Resource Include="images\undefined.png" />
+    <Resource Include="images\logo.png" />
+    <Resource Include="Menus\Home\Playercard_BuckySchema_S.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
