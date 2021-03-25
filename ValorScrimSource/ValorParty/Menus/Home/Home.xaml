@@ -38,6 +38,7 @@
         </Canvas>
         <Image x:Name="logoPic" HorizontalAlignment="Left" Height="159" Margin="0,112,0,0" VerticalAlignment="Top" Width="402" Source="/Resources/logo.png" Stretch="Uniform"/>
         <Label Content="- BETA -" HorizontalAlignment="Left" Margin="218,220,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiLight" FontSize="22" Background="Transparent" Foreground="White"/>
+        <Label Content="ValorScrim has no affiliation with Riot Games" HorizontalAlignment="Left" Margin="631,426,0,0" VerticalAlignment="Top" Height="24" Width="169" FontSize="8" Foreground="White"/>
 
     </Grid>
 </Page>

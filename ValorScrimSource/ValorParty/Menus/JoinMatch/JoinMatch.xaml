@@ -11,9 +11,9 @@
     <Grid>
         <Canvas Background="#FF0F1923">
             <Label Content="JOIN A MATCH"  Foreground="White" FontFamily="Bahnschrift" Height="47" Width="232" FontSize="34" Canvas.Top="152" Canvas.Left="284"/>
-            <TextBox x:Name="codeInput" Canvas.Left="262" Canvas.Top="199" TextWrapping="Wrap" Width="276" Background="#FFFF4655" Foreground="White" FontFamily="Bahnschrift" SelectionBrush="#FFC3D700" Height="21" TextAlignment="Center"/>
             <Button x:Name="joinMatchBTN" Content="JOIN" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="318" Canvas.Top="225" Click="joinMatchBTN_Click"/>
             <Button x:Name="backBTN" Content="BACK" Height="30" Width="80" FontFamily="Bahnschrift SemiBold" FontSize="14" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="10" Canvas.Top="10" Click="backBTN_Click"/>
+            <PasswordBox x:Name="codeInput" Canvas.Left="262" Canvas.Top="199" Background="#FFFF4655" Foreground="White" FontFamily="Bahnschrift" SelectionBrush="#FFC3D700" Height="21" Width="276"/>
         </Canvas>
     </Grid>
 </Page>

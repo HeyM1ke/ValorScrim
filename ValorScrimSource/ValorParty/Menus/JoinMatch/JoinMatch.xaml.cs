@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using RumbleMike;
+using System.Diagnostics;
 
 namespace ValorParty.Menus.JoinMatch
 {
@@ -33,8 +34,7 @@ namespace ValorParty.Menus.JoinMatch
 
         private void joinMatchBTN_Click(object sender, RoutedEventArgs e)
         {
-
-            Endpoints.POSTJoinparty(codeInput.Text);
+            Endpoints.POSTJoinparty(codeInput.Password);
             MainWindow.loaderFrameRef.Content = new Menus.Home.Home();
         }
     }
