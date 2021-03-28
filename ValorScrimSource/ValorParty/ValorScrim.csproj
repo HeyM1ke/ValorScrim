@@ -7,10 +7,10 @@
     <AssemblyName>ValorScrim</AssemblyName>
     <RootNamespace>ValorParty</RootNamespace>
     <ApplicationIcon>vslogo.ico</ApplicationIcon>
-    <AssemblyVersion>0.0.0.4</AssemblyVersion>
-    <FileVersion>0.0.0.4</FileVersion>
+    <AssemblyVersion>0.0.0.6</AssemblyVersion>
+    <FileVersion>0.0.0.6</FileVersion>
     <Authors>RumbleMike</Authors>
-    <Version>0.0.0.4</Version>
+    <Version>0.0.0.6</Version>
     <PackageIcon>vslogo.png</PackageIcon>
     <Copyright>RumbleMike</Copyright>
   </PropertyGroup>
