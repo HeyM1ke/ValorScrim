@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ValorParty"
         mc:Ignorable="d"
-        Title="ValorScrim | 0.0.0.4 | RUMBLEMIKE" Height="489" Width="813" ResizeMode="NoResize">
+        Title="ValorScrim | 0.0.0.6 | RUMBLEMIKE" Height="489" Width="813" ResizeMode="NoResize">
     <Grid>
         <Canvas HorizontalAlignment="Center" VerticalAlignment="Top" Height="464" Grid.RowSpan="2" Width="0">
         </Canvas>
