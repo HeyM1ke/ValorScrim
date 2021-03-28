@@ -84,8 +84,10 @@ namespace RumbleMike
             Object settings = new
             {
                 map = map,
-                Mode = "/Game/GameModes/Bomb/BombGameMode.BombGameMode_C",
-                GamePod = server
+                Mode = "Game/GameModes/Bomb/BombGameMode.BombGameMode_C",
+                GamePod = server,
+                
+                
             };
 
             string body = JsonConvert.SerializeObject(settings);
@@ -192,7 +194,7 @@ namespace RumbleMike
                 var resp = JObject.Parse(getResp.Content);
                 playercardID = (string)resp["PlayerCard"]["ID"];
                 Debug.WriteLine(playercardID);
-                return $"https://media.valorant-api.com/playercards/{playercardID}/smallart.png";
+                return $"https://media.valorant-api.com/playercards/{playercardID}/wideart.png";
             }
                 
             else
