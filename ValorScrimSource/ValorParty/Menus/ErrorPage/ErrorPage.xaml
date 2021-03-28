@@ -10,15 +10,15 @@
 
     <Grid>
         <Canvas Background="#FF0F1923">
-            <Rectangle Height="212" Canvas.Left="294" Canvas.Top="119" Width="212" Fill="#FF1D2F42">
+            <Rectangle Height="112" Canvas.Left="235" Canvas.Top="152" Width="330" Fill="#FF1D2F42">
                 <Rectangle.Effect>
                     <DropShadowEffect Direction="-90" ShadowDepth="20" BlurRadius="100"/>
                 </Rectangle.Effect>
             </Rectangle>
-            <Button x:Name="quitBTN" Content="QUIT" Height="30" Width="80" FontFamily="Bahnschrift SemiBold" FontSize="14" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="360" Canvas.Top="281" Click="quitBTN_Click"/>
-            <Label Content="//ERROR" Canvas.Left="304" Canvas.Top="129" FontFamily="Bahnschrift SemiBold" FontSize="22" Foreground="White"/>
-            <TextBlock Canvas.Left="304" Canvas.Top="170" Text="We have run into an error!" TextWrapping="Wrap" Height="26" Width="190" FontFamily="Bahnschrift Light" Foreground="White"/>
-            <TextBlock x:Name="errorMessage" Canvas.Left="304" Canvas.Top="201" Text="//DETAILS HERE WOOOO POGGERS MOMENT" TextWrapping="Wrap" Height="63" Width="190" FontFamily="Bahnschrift Light" Foreground="White"/>
+            <Button x:Name="quitBTN" Content="QUIT" Height="30" Width="80" FontFamily="Bahnschrift SemiBold" FontSize="14" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="469" Canvas.Top="212" Click="quitBTN_Click"/>
+            <Label Content="//ERROR" Canvas.Left="235" Canvas.Top="160" FontFamily="Bahnschrift SemiBold" FontSize="22" Foreground="White"/>
+            <TextBlock Canvas.Left="359" Canvas.Top="170" Text="We have run into an error!" TextWrapping="Wrap" Height="26" Width="190" FontFamily="Bahnschrift Light" Foreground="White"/>
+            <TextBlock x:Name="errorMessage" Canvas.Left="247" Canvas.Top="212" Text="//DETAILS HERE WOOOO POGGERS MOMENT" TextWrapping="Wrap" Height="63" Width="190" FontFamily="Bahnschrift Light" Foreground="White"/>
         </Canvas>
     </Grid>
 </Page>

@@ -12,10 +12,10 @@
 
     <Grid>
         <Canvas Background="#FF0F1923">
-            <Label Content="CREATE A MATCH"  Foreground="White" FontFamily="Bahnschrift" Height="47" Width="280" FontSize="34" Canvas.Top="82" Canvas.Left="260"/>
-            <Image x:Name="mapPreview" Height="75" Canvas.Left="228" Canvas.Top="134" Width="344" Source="/images/undefined.png"/>
-            <ComboBox x:Name="mapComboBox" Canvas.Left="302" Canvas.Top="233" Width="256" SelectionChanged="mapComboBox_SelectionChanged" BorderBrush="Black" Foreground="Black" Background="#FF0F1923" Style="{StaticResource ComboBoxFlatStyle}">
-                
+            <Label Content="CREATE A MATCH"  Foreground="White" FontFamily="Bahnschrift" Height="47" Width="280" FontSize="34" Canvas.Top="10" Canvas.Left="260"/>
+            <Image x:Name="mapPreview" Height="119" Canvas.Left="228" Canvas.Top="89" Width="344" Source="/images/undefined.png"/>
+            <ComboBox x:Name="mapComboBox" Canvas.Left="284" Canvas.Top="233" Width="256" SelectionChanged="mapComboBox_SelectionChanged" BorderBrush="Black" Foreground="Black" Background="#FF0F1923" Style="{StaticResource ComboBoxFlatStyle}">
+
                 <ComboBox.ItemContainerStyle>
                     <Style TargetType="ComboBoxItem">
                         <Setter Property="Background" Value="#FF0F1923"/>
@@ -30,9 +30,9 @@
                 <ComboBoxItem Content="Haven"/>
                 <ComboBoxItem Content="Split"/>
             </ComboBox>
-            <Label Content="MAP:" Canvas.Left="229" Canvas.Top="230" Height="27" Width="55" Foreground="White" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
-            <Button x:Name="createMatchBTN" Content="CREATE" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="318" Canvas.Top="299" Click="createMatchBTN_Click"/>
-            <ComboBox x:Name="serverComboBox" Canvas.Left="302" Canvas.Top="265" Width="256" BorderBrush="Black" Foreground="Black" Background="#FF0F1923" Style="{StaticResource ComboBoxFlatStyle}" SelectionChanged="serverComboBox_SelectionChanged">
+            <Label Content="MAP:" Canvas.Left="241" Canvas.Top="232" Height="27" Width="56" Foreground="White" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
+            <Button x:Name="createMatchBTN" Content="CREATE" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="318" Canvas.Top="317" Click="createMatchBTN_Click"/>
+            <ComboBox x:Name="serverComboBox" Canvas.Left="284" Canvas.Top="264" Width="256" BorderBrush="Black" Foreground="Black" Background="#FF0F1923" Style="{StaticResource ComboBoxFlatStyle}" SelectionChanged="serverComboBox_SelectionChanged">
                 <ComboBox.ItemContainerStyle>
                     <Style TargetType="ComboBoxItem">
                         <Setter Property="Background" Value="#FF0F1923"/>
@@ -42,7 +42,7 @@
                     </Style>
                 </ComboBox.ItemContainerStyle>
             </ComboBox>
-            <Label Content="SERVER:" Canvas.Left="229" Canvas.Top="262" Height="27" Width="68" Foreground="White" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
+            <Label Content="SERVER:" Canvas.Left="216" Canvas.Top="262" Height="27" Width="68" Foreground="White" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
             <Button x:Name="backBTN" Content="BACK" Height="30" Width="80" FontFamily="Bahnschrift SemiBold" FontSize="14" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Canvas.Left="10" Canvas.Top="10" Click="backBTN_Click"/>
         </Canvas>
 

@@ -25,6 +25,8 @@ namespace ValorParty.Menus.CreateMatch
     {
         string selectedMap;
         string selectedServer;
+        
+        
 
         public CreateMatch()
         {
@@ -416,5 +418,7 @@ namespace ValorParty.Menus.CreateMatch
         {
             MainWindow.loaderFrameRef.Content = new Menus.Home.Home();
         }
+
+        
     }
 }
