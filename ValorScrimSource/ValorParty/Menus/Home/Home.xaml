@@ -25,20 +25,36 @@
         </MediaElement>
         <Rectangle HorizontalAlignment="Right" Height="225" Margin="400,0,0,0" VerticalAlignment="Top" Width="400" Fill="#FF0F1923"/>
         <Rectangle HorizontalAlignment="Right" Height="225" Margin="400,225,0,0" VerticalAlignment="Top" Width="400" Fill="#FFFF4655"/>
-        <Button x:Name="CreateNatchHomeBTN" Content="CREATE" HorizontalAlignment="Left" Margin="518,112,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FFFF4655" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Click="CreateNatchHomeBTN_Click"/>
+        <Button x:Name="CreateNatchHomeBTN" Content="CREATE" HorizontalAlignment="Left" Margin="518,112,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" BorderBrush="#FFF4F4F4" Foreground="Black" Click="CreateNatchHomeBTN_Click" RenderTransformOrigin="0.5,0.5" Background="#FFE44A56">
+            <Button.Effect>
+                <DropShadowEffect Color="#FFFF4655"/>
+            </Button.Effect>
+        </Button>
         <Label Content="CREATE A MATCH" HorizontalAlignment="Left" Margin="460,60,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift" Height="47" Width="280" FontSize="34"/>
         <Label Content="JOIN A MATCH" HorizontalAlignment="Left" Margin="484,286,0,0" VerticalAlignment="Top" Foreground="#FF0F1923" FontFamily="Bahnschrift" Height="47" Width="232" FontSize="34"/>
-        <Button x:Name="joinBTN" Content="JOIN" HorizontalAlignment="Left" Margin="518,338,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FF0F1923" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Click="joinBTN_Click"/>
-        <Canvas Margin="133,385,517,10" Width="150" Height="55" Background="#FFF4F4F4">
+        <Button x:Name="joinBTN" Content="JOIN" HorizontalAlignment="Left" Margin="518,338,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="Black" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Click="joinBTN_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Canvas Margin="10,385,640,10" Width="150" Height="55" Background="#FFF4F4F4">
             <Canvas.Effect>
                 <DropShadowEffect Direction="-90" BlurRadius="10" Opacity=".5"/>
             </Canvas.Effect>
-            <Image x:Name="playerCardPreview" Height="40" Canvas.Left="9" Canvas.Top="8" Width="40" Source="" Stretch="Fill"/>
-            <Label x:Name="regionLabel" Content="REGION : NA" Canvas.Left="54" Canvas.Top="15" FontFamily="Bahnschrift SemiLight" FontSize="14" FontStyle="Normal"/>
+            <Image x:Name="playerCardPreview" Height="60" Canvas.Left="0.959" Canvas.Top="-79.918" Width="150" Source="" Stretch="Fill"/>
+            <Label x:Name="regionLabel" Content="REGION : NA" Canvas.Left="30.805" Canvas.Top="14.098" FontFamily="Bahnschrift SemiLight" FontSize="14" FontStyle="Normal"/>
         </Canvas>
         <Image x:Name="logoPic" HorizontalAlignment="Left" Height="159" Margin="0,112,0,0" VerticalAlignment="Top" Width="402" Source="/Resources/logo.png" Stretch="Uniform"/>
         <Label Content="- BETA -" HorizontalAlignment="Left" Margin="218,220,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiLight" FontSize="22" Background="Transparent" Foreground="White"/>
-        <Label Content="ValorScrim has no affiliation with Riot Games" HorizontalAlignment="Left" Margin="631,426,0,0" VerticalAlignment="Top" Height="24" Width="169" FontSize="8" Foreground="White"/>
+        <TextBox x:Name="disclaimer" HorizontalAlignment="Left" Height="28" Margin="630,434,0,0" Text="*This app is not approved by Riot" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" SelectionOpacity="0" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="11" Background="{x:Null}" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Page>
