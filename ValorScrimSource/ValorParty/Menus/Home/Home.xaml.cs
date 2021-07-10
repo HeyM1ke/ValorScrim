@@ -53,9 +53,11 @@ namespace ValorParty.Menus.Home
             else 
                 regionLabel.Content = $"NOT FOUND";
 
+            /*
             string playercardLink = Endpoints.GetPlayerCard();
             playerCardPreview.Source = new BitmapImage(new Uri(playercardLink, UriKind.Absolute));
-            
+            */
+            // Had to remove PlayerCard integration for it to build
         }
 
         private void joinBTN_Click(object sender, RoutedEventArgs e)
