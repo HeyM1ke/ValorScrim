@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,7 @@ namespace RumbleMike
             IRestRequest GetRequest = new RestRequest(Method.GET);
             GetRequest.AddHeader("Authorization", $"Basic {Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes($"riot:{RiotUser.Instance.lockfileData.password}"))}");
             GetRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            GetRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            GetRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
             IRestResponse getResp = GetClient.Get(GetRequest);
 
             if (getResp.IsSuccessful)
@@ -60,7 +60,7 @@ namespace RumbleMike
             getRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             getRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             getRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            getRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            getRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             IRestResponse getResp = getClient.Get(getRequest);
 
@@ -79,7 +79,7 @@ namespace RumbleMike
             postRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             postRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             postRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            postRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            postRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             Object settings = new
             {
@@ -107,7 +107,7 @@ namespace RumbleMike
             postRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             postRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             postRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            postRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            postRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             IRestResponse postResp = postClient.Post(postRequest);
 
@@ -125,7 +125,7 @@ namespace RumbleMike
             postRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             postRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             postRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            postRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            postRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             IRestResponse postResp = postClient.Post(postRequest);
 
@@ -144,7 +144,7 @@ namespace RumbleMike
             postRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             postRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             postRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            postRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            postRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
              postRequest.AddParameter("application/json", "{\r\n    \"Accessibility\":\"OPEN\"\r\n}", ParameterType.RequestBody);
             IRestResponse postResp = postClient.Post(postRequest);
@@ -164,7 +164,7 @@ namespace RumbleMike
             postRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             postRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             postRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            postRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            postRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             IRestResponse postResp = postClient.Post(postRequest);
 
@@ -184,7 +184,7 @@ namespace RumbleMike
             getRequest.AddHeader("Authorization", $"Bearer {RiotUser.Instance.riotDetails.accessToken}");
             getRequest.AddHeader("X-Riot-Entitlements-JWT", RiotUser.Instance.riotDetails.entitlementToken);
             getRequest.AddHeader("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9");
-            getRequest.AddHeader("X-Riot-ClientVersion", "release-02.05-shipping-3-531230");
+            getRequest.AddHeader("X-Riot-ClientVersion", "release-03.01-shipping-9-579719");
 
             IRestResponse getResp = getClient.Get(getRequest);
             if (getResp.IsSuccessful)
